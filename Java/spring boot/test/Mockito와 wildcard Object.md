@@ -2,7 +2,7 @@
 
 Timeline: Jan 07, 2020
 
-## 1. 에러
+## 에러
 
 
 **Controller & Service**
@@ -60,7 +60,7 @@ ResponseEntity.ok(domain)은 ResponseEntity<T>형을 반환한다.
 
 domainService.read(id) Mock객체라서 ?을 판단할 수 없다.
 
-## 2. 해결 방법
+## 해결 방법
 
     doReturn(ResponseEntity.ok(domain)).when(domainService).read(id);
 

@@ -2,7 +2,7 @@
 
 Timeline: Jan 07, 2020
 
-## 1. given(BDD)이나 when메소드에서 제대로 매칭이 안됨
+## given(BDD)이나 when메소드에서 제대로 매칭이 안됨
 
 원치않는 200번이 호출되는 현상
 
@@ -17,7 +17,7 @@ Timeline: Jan 07, 2020
 
 created로 반환해야 하는데 ok로 반환되어버렸다.
 
-##2. 해결방안
+## 해결방안
 
     given(voteService.vote(Mockito.anyString(), Mockito.anyString(), Mockito.anyString(),
             Mockito.anyList()))

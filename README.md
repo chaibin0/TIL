@@ -1,7 +1,7 @@
-#Today I Learned
+# Today I Learned
 
 
-##Lagnuage
+## Lagnuage
 * [Java](Java/README.md)
 
 
