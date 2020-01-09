@@ -15,7 +15,7 @@ Timeline: Jan 07, 2020
 
 > java.lang.AssertionError: Status expected:<201> but was:<200>
 
-created로 반환해야 하는데 ok로 반환되어버렸다.
+created로 반환해야 하는데 ok로 반환 되었습니다.
 
 ## 해결방안
 
@@ -24,3 +24,6 @@ created로 반환해야 하는데 ok로 반환되어버렸다.
                 .willReturn(ResponseEntity.created(URI.create("/vote/success")).build());
 
 any메소드를 이용하면 임시적으로 해결이 됩니다.
+
+## 해결방안2
+Mockito.anyString()에 null이 넣어져도 200번으로 호출되었습니다. 값을 제대로 넣어줘야 합니다.
