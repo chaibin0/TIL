@@ -15,4 +15,6 @@
     * [WebMvcTest에서 404를 받는다면?](https://github.com/chaibin0/TIL/blob/master/Java/spring%20boot/test/WebMvcTest%EC%97%90%EC%84%9C%20404%ED%98%B8%EC%B6%9C.md)
     * [private Method Test](https://github.com/chaibin0/TIL/blob/master/Java/spring%20boot/test/private_Method_Test.md)
 * Configuration
-    * [Interceptor에서 User정보를 비교할때](https://github.com/chaibin0/TIL/blob/master/Java/spring%20boot/configuration/Interceptor.md)
+    * [Interceptor에서 User정보를 비교할때](https://github.com/chaibin0/TIL/blob/master/Java/spring%20boot/configuration/Interceptor.md)\
+* Cloud
+    * [Gradle Multi project 와 jib를 이용해 실행](spring%20boot/cloud/jib.md)

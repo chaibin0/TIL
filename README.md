@@ -1,8 +1,16 @@
 # Today I Learned
 
 
-## Lagnuage
+## TIL
+### Lagnuage
 * [Java](Java/README.md)
+
+
+
+## 기타
+* [ReadingList](etc/readingList.md)
+
+
 
 
 
