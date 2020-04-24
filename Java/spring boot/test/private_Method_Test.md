@@ -6,8 +6,6 @@ Type: Java, Junit, Test
 
 # 1. Reflection을 이용
 
----
-
     Method method = instance.getClass().getDeclaredMethod("메소드 이름", 파라미터...);
     method.setAccessible(true);
     method.invoke(인스턴스, 파라미터, 파라미터,...);

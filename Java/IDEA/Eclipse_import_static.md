@@ -14,7 +14,7 @@ import static 남용하는건 안좋다. 대부분 쓰는곳만 import static한
 
 ## 1. import static 등록
 
----
+
 
 ### 1.1 메소드 위치 찾기
 
@@ -45,7 +45,7 @@ New Type(클래스단위) new Member(함수 단위)로 하고 안에있는 데�
 
 ## 2. import static 사용하는 클래스(정리중)
 
----
+
 
 ### 2.1 Test(Mock,Mockito, BDD, assertJ)
 * Slice Test와 Mockito는 importStatic으로 하면 편합니다.
